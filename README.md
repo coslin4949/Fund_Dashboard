@@ -38,13 +38,7 @@ https://coslin4949.github.io/fund-dashboard/
 fund_dashboard.html
 ```
 
-如果要部署为 GitHub Pages，建议将页面文件命名为：
 
-```text
-index.html
-```
-
-然后上传到 GitHub 仓库根目录。
 
 ### 添加基金
 
@@ -88,47 +82,7 @@ fundDashboard.hiddenDefaultCodes.v1
 - 别人打开同一个网页链接后，会使用他自己浏览器里的本地配置。
 - 如果清理浏览器缓存或站点数据，自选基金配置可能会丢失。
 
-## 部署到 GitHub Pages
 
-1. 在 GitHub 新建仓库，例如：
-
-   ```text
-   fund-dashboard
-   ```
-
-2. 将页面文件改名为：
-
-   ```text
-   index.html
-   ```
-
-3. 将 `index.html` 和 `README.md` 上传到仓库根目录。
-
-4. 进入仓库设置：
-
-   ```text
-   Settings → Pages
-   ```
-
-5. Source 选择：
-
-   ```text
-   Deploy from a branch
-   ```
-
-6. Branch 选择：
-
-   ```text
-   main / root
-   ```
-
-7. 保存后等待 GitHub 部署完成。
-
-部署完成后，访问地址通常是：
-
-```text
-https://coslin4949.github.io/fund-dashboard/
-```
 
 ## 注意事项
 
